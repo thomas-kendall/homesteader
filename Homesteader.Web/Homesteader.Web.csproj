@@ -117,6 +117,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\custom\images\homesteader-logo.png" />
     <Content Include="Content\foodster\bootstrap\css\bootstrap.css" />
     <Content Include="Content\foodster\bootstrap\css\bootstrap.min.css" />
     <Content Include="Content\foodster\bootstrap\fonts\glyphicons-halflings-regular.svg" />
@@ -260,7 +261,8 @@
     <Content Include="Content\foodster\sass\variables.scss" />
     <Content Include="Content\foodster\video\video.ogg" />
     <Content Include="Content\foodster\video\video.webm" />
-    <None Include="Properties\PublishProfiles\thehomesteadercafe.pubxml" />
+    <None Include="Properties\PublishProfiles\thehomesteadercafe-dev.pubxml" />
+    <None Include="Properties\PublishProfiles\www.thehomesteadercafe.com.pubxml" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -274,6 +276,8 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_Navigation.cshtml" />
+    <Content Include="Views\Shared\_Footer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
