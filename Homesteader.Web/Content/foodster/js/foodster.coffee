@@ -9,9 +9,9 @@ loadGoogleMap = ->
     lat: 53.48
     lng: -2.24
     zoom: 17
-    infoText: "<p>55 Mosley Street                                <br/>Manchester                                <br/>M2 3HY</p>"
+    infoText: "<p>The Homesteader Cafe <br/> 100 E 7th St <br/> Kansas City, MO <br/> 64106</p>"
     linkText: "View on Google Maps"
-    mapAddress: "55 Mosley Street, Manchester, M2 3HY"
+    mapAddress: "100 E 7th St, Kansas City, MO 64106"
     icon: "/Content/foodster/images/map_pin.png"
 
   if $("#restaurant_map").length

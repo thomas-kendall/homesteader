@@ -79,16 +79,17 @@ Contact Map
     
         // Set mapPoint, latitude and longitude, zoom, and other info needed for Google Map
         var mapPoint = {
-                    'lat': 53.48,
-                    'lng': -2.24,
-                    'zoom' : 17,
-                    'infoText':'<p>55 Mosley Street\
-                                <br/>Manchester\
-                                <br/>M2 3HY</p>',
-                    'linkText':'View on Google Maps',
-                    'mapAddress':'55 Mosley Street, Manchester, M2 3HY',
-                    'icon': '/Content/foodster/images/map_pin.png'
-                };
+            'lat': 39.1054515,
+            'lng': -94.5813767,
+            'zoom' : 16,
+            'infoText': '<p>The Homesteader Cafe\
+                         <br/>100 E 7th St\
+                         <br/>Kansas City, MO\
+                         <br/>64106</p>',
+            'linkText':'View on Google Maps',
+            'mapAddress':'100 E 7th St, Kansas City, MO 64106',
+            'icon': '/Content/foodster/images/map_pin.png'
+        };
 
         if($('#restaurant_map').length){
         
