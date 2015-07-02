@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Home";
+    ViewBag.Title = "The Homesteader Cafe";
 }
 
 @section beforeNavigation
@@ -45,6 +45,125 @@
     <!-- End Main Slider -->
 }
 
+@section modals
+{
+    <!-- Menu modal -->
+    <div class="popup-modal modal fade" id="menuModal-breakfast" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- News Article Goes Here -->
+                            <span class="section-icon">a</span>
+                            <h2 class="section-heading">BREAKFAST</h2>
+                            <h3 class="section-subheading">Your healthy energy boost to start the day</h3>
+                            <img class="img-responsive img-centered" src="~/Content/foodster/images/breakfast1.jpg" alt="" data-no-retina>
+
+                            <h4 class="section-subsubheading">Healthy Cereal with Fruit</h4>
+
+                            <p>Nut &amp; fruit granola served with fresh yoghurt.<br><strong>&dollar;8.50</strong></p>
+
+                            <img class="img-responsive img-centered" src="~/Content/foodster/images/breakfast2.jpg" alt="" data-no-retina>
+
+                            <h4 class="section-subsubheading">Homemade Crepés with Fruit</h4>
+
+                            <p>Crepés served with fresh fruit.<br><strong>&dollar;10.50</strong></p>
+
+                        </div>
+                    </div>
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.modal-content -->
+    </div>
+    <!-- End menu modal -->
+
+    <!-- Menu modal -->
+    <div class="popup-modal modal fade" id="menuModal-lunch" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- News Article Goes Here -->
+                            <span class="section-icon">f</span>
+                            <h2 class="section-heading">Lunch</h2>
+                            <h3 class="section-subheading">For those with exquisite taste only</h3>
+                            <img class="img-responsive img-centered" src="~/Content/foodster/images/lunch1.jpg" alt="" data-no-retina>
+
+                            <h4 class="section-subsubheading">Fresh baguette with egg, tomato and lettuce</h4>
+
+                            <p>Nut &amp; fruit granola served with fresh yoghurt.<br><strong>&dollar;14.50</strong></p>
+
+                            <img class="img-responsive img-centered" src="~/Content/foodster/images/lunch2.jpg" alt="" data-no-retina>
+
+                            <h4 class="section-subsubheading">Homemade Pizza</h4>
+
+                            <p>Fresh base topped with onion, cheese and lettuce.<br><strong>&dollar;15.00</strong></p>
+
+                        </div>
+                    </div>
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.modal-content -->
+    </div>
+    <!-- End menu modal -->
+
+    <!-- Menu modal -->
+    <div class="popup-modal modal fade" id="menuModal-drinks" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- News Article Goes Here -->
+                            <span class="section-icon">W</span>
+                            <h2 class="section-heading">Drinks</h2>
+                            <h3 class="section-subheading">Finely ground coffee, or something a little more daring...</h3>
+                            <img class="img-responsive img-centered" src="~/Content/foodster/images/drink1.jpg" alt="" data-no-retina>
+
+                            <h4 class="section-subsubheading">Strawberry basil lemonade</h4>
+
+                            <p>A healthy blend with a fresh, fruity taste.<br><strong>&dollar;3.50</strong></p>
+
+                            <img class="img-responsive img-centered" src="~/Content/foodster/images/drink2.jpg" alt="" data-no-retina>
+
+                            <h4 class="section-subsubheading">Frozen mango drink</h4>
+
+                            <p>What more can we say? Give it a try!<br><strong>&dollar;4.00</strong></p>
+
+                            <img class="img-responsive img-centered" src="~/Content/foodster/images/drink3.jpg" alt="" data-no-retina>
+
+                            <h4 class="section-subsubheading">Caffé latte</h4>
+
+                            <p>The perfect blend, just how you like it.<br><strong>&dollar;2.50</strong></p>
+                        </div>
+                    </div>
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.modal-content -->
+    </div>
+    <!-- End menu modal -->
+}
+
 <!-- Introduction Section -->
 <section id="intro">
     <div class="container">
@@ -79,18 +198,63 @@
 </section>
 <!-- End Unique Chain Section -->
 
+<!-- Choose Restaurant Section -->
+<section id="restaurants">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3 class="section-subheading wow fadeInDown">Select your Foodster</h3>
+            </div>
+        </div><!-- /.row-->
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 text-center wow fadeInLeft">
+                <ul>
+                    <li><a href="#restaurantModal1" data-toggle="modal">Manchester</a></li>
+                    <li><a href="#restaurantModal1" data-toggle="modal">London</a></li>
+                    <li><a href="#restaurantModal1" data-toggle="modal">Leeds</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 text-center wow fadeInUp">
+                <ul>
+                    <li><a href="#restaurantModal1" data-toggle="modal">New York</a></li>
+                    <li><a href="#restaurantModal1" data-toggle="modal">Tokyo</a></li>
+                    <li><a href="#restaurantModal1" data-toggle="modal">Edinburgh</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 text-center wow fadeInUp">
+                <ul>
+                    <li><a href="#restaurantModal1" data-toggle="modal">Pittsburgh</a></li>
+                    <li><a href="#restaurantModal1" data-toggle="modal">San Francisco</a></li>
+                    <li><a href="#restaurantModal1" data-toggle="modal">Miami</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 text-center wow fadeInRight">
+                <ul>
+                    <li><a href="#restaurantModal1" data-toggle="modal">Hamburg</a></li>
+                    <li><a href="#restaurantModal1" data-toggle="modal">Sydney</a></li>
+                    <li><a href="#restaurantModal1" data-toggle="modal">Glasgow</a></li>
+                </ul>
+            </div>
+        </div><!-- /.row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <a href="#menus" class="page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
+            </div>
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section>
+<!-- End Restaurants Section -->
+
 <!-- Menus Section -->
 <section id="menus">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading wow fadeInDown">We are big on choice.</h2>
-                <h3 class="section-subheading wow fadeInDown">Choose a menu</h3>
-                <ul class="wow fadeInUp">
-                    <li><a href="#menuModal1" data-toggle="modal">Breakfast</a></li>
-                    <li><a href="#menuModal2" data-toggle="modal">Lunch</a></li>
-                    <li><a href="#menuModal3" data-toggle="modal">Drinks</a></li>
-                </ul>
+                <h3 class="section-subheading wow fadeInDown">We will be open for lunch and dinner on weekdays and brunch on the weekends.</h3>
+                <h3 class="section-subheading wow fadeInDown">Menus coming soon...</h3>
             </div>
             <div class="col-sm-12">
                 <a href="#book" class="page-scroll">
@@ -220,13 +384,12 @@
 </div>
 <!-- End Gallery Section -->
 
-<div class="purchase">
+<div class="come-join-us">
     <div class="container text-center">
         <div class="row">
             <div class="col-sm-12 wow fadeInDown">
-                <h2 class="section-heading">Make it yours</h2>
-                <p>Build your next project using Foodster and benefit from free support &amp; excellent documentation</p>
-                <a href="https://wrapbootstrap.com/theme/foodster-restaurant-bar-theme-WB0P56R61" class="btn btn-primary btn-lg" target="_parent">Purchase now</a>
+                <h2 class="section-heading">Come join us</h2>
+                <p>Bring a friend and enjoy the food!</p>
             </div>
         </div>
     </div>

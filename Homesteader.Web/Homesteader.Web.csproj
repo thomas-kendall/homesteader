@@ -118,6 +118,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\custom\images\homesteader-logo-color.png" />
+    <Content Include="Content\custom\images\homesteader-logo-inverse.png" />
     <Content Include="Content\custom\images\homesteader-logo.png" />
     <Content Include="Content\foodster\bootstrap\css\bootstrap.css" />
     <Content Include="Content\foodster\bootstrap\css\bootstrap.min.css" />
