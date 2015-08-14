@@ -1095,7 +1095,7 @@ header .btn:hover i.animated {
   z-index: 1;
   color: #fff;
   padding: 150px 0;
-  background: url('../images/menu_bg.jpg') no-repeat center center scroll;
+  background: url('../../custom/images/megan-jeremy-pirate-kiss.jpg') no-repeat center center scroll;
   /* background attachment fixed used for CSS parallax scrolling effect */
 
   background-attachment: fixed;

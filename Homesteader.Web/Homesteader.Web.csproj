@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -118,9 +119,19 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\custom\images\breakfast-souffle.jpg" />
+    <Content Include="Content\custom\images\chocalate-coconut-tart.jpg" />
+    <Content Include="Content\custom\images\chocalate-croissant.jpg" />
+    <Content Include="Content\custom\images\cinnamon-rolls.jpg" />
+    <Content Include="Content\custom\images\corn-cakes.jpg" />
+    <Content Include="Content\custom\images\egg-bacon-polenta.jpg" />
+    <Content Include="Content\custom\images\eggplant-parmesan.jpg" />
     <Content Include="Content\custom\images\homesteader-logo-color.png" />
     <Content Include="Content\custom\images\homesteader-logo-inverse.png" />
     <Content Include="Content\custom\images\homesteader-logo.png" />
+    <Content Include="Content\custom\images\megan-jeremy-cooking.jpg" />
+    <Content Include="Content\custom\images\megan-jeremy-pirate-kiss.jpg" />
+    <Content Include="Content\custom\images\winter-white-chocolate-mousse.jpg" />
     <Content Include="Content\foodster\bootstrap\css\bootstrap.css" />
     <Content Include="Content\foodster\bootstrap\css\bootstrap.min.css" />
     <Content Include="Content\foodster\bootstrap\fonts\glyphicons-halflings-regular.svg" />
