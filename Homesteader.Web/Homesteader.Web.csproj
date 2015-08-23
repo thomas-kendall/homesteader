@@ -119,9 +119,28 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\custom\images\banana-chocolate-cake.jpg" />
     <Content Include="Content\custom\images\breakfast-souffle.jpg" />
+    <Content Include="Content\custom\images\buffet.jpg" />
+    <Content Include="Content\custom\images\carousel\banana-chocolate-cake.jpg" />
+    <Content Include="Content\custom\images\carousel\buffet.jpg" />
+    <Content Include="Content\custom\images\carousel\carrot-cake.jpg" />
+    <Content Include="Content\custom\images\carousel\cheesy-stuffed.jpg" />
+    <Content Include="Content\custom\images\carousel\chocalate-croissant.jpg" />
+    <Content Include="Content\custom\images\carousel\chocolate-chip-cookies.jpg" />
+    <Content Include="Content\custom\images\carousel\chocolate-cups.jpg" />
+    <Content Include="Content\custom\images\carousel\egg-bacon-polenta.jpg" />
+    <Content Include="Content\custom\images\carousel\eggplant-parmesan.jpg" />
+    <Content Include="Content\custom\images\carousel\macaroons.jpg" />
+    <Content Include="Content\custom\images\carousel\muffins.jpg" />
+    <Content Include="Content\custom\images\carousel\shrimp-couscous.jpg" />
+    <Content Include="Content\custom\images\carrot-cake.jpg" />
+    <Content Include="Content\custom\images\cheesy-stuffed.jpg" />
     <Content Include="Content\custom\images\chocalate-coconut-tart.jpg" />
     <Content Include="Content\custom\images\chocalate-croissant.jpg" />
+    <Content Include="Content\custom\images\chocolate-cake.jpg" />
+    <Content Include="Content\custom\images\chocolate-chip-cookies.jpg" />
+    <Content Include="Content\custom\images\chocolate-cups.jpg" />
     <Content Include="Content\custom\images\cinnamon-rolls.jpg" />
     <Content Include="Content\custom\images\corn-cakes.jpg" />
     <Content Include="Content\custom\images\egg-bacon-polenta.jpg" />
@@ -129,8 +148,13 @@
     <Content Include="Content\custom\images\homesteader-logo-color.png" />
     <Content Include="Content\custom\images\homesteader-logo-inverse.png" />
     <Content Include="Content\custom\images\homesteader-logo.png" />
+    <Content Include="Content\custom\images\macaroons.jpg" />
+    <Content Include="Content\custom\images\making-lasagna.jpg" />
     <Content Include="Content\custom\images\megan-jeremy-cooking.jpg" />
     <Content Include="Content\custom\images\megan-jeremy-pirate-kiss.jpg" />
+    <Content Include="Content\custom\images\muffins.jpg" />
+    <Content Include="Content\custom\images\shrimp-couscous.jpg" />
+    <Content Include="Content\custom\images\shrimp-tomatoes.jpg" />
     <Content Include="Content\custom\images\winter-white-chocolate-mousse.jpg" />
     <Content Include="Content\foodster\bootstrap\css\bootstrap.css" />
     <Content Include="Content\foodster\bootstrap\css\bootstrap.min.css" />
