@@ -6,6 +6,32 @@ header .item .item_muffins {
     background-image: url("../images/muffins-header-o60.jpg");
 }
 
+#menus {
+  background: #e0ded9;
+}
+#menus a {
+  color: #2e2e32;
+}
+#menus a:hover, #menus a:focus, #menus a:active {
+	text-decoration: none;
+	color: #68686a !important;
+}
+#menus a,
+#menus ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'novecento_sans_wide_bookbold', sans-serif;
+  font-size: 26px;
+}
+#menus ul li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#menus .section-heading {
+	margin-bottom: 48px;
+}
+
 #our-story .section-subheading {
 	margin: 48px 0;
 }
