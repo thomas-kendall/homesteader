@@ -79,6 +79,10 @@ header .item .item_muffins {
   }
 }
 
+#unique {
+    background-image: url("../images/chocolate-chip-cookies-tall.jpg");
+}
+
 #OT_form,
 #book #OT_form,
 #book-table #OT_form {
@@ -88,4 +92,7 @@ header .item .item_muffins {
 #book .OT_ExtLink:link, #book .OT_ExtLink:visited, #book .OT_ExtLink:hover, #book .OT_ExtLink:active,
 #book-table .OT_ExtLink:link, #book-table .OT_ExtLink:visited, #book-table .OT_ExtLink:hover, #book-table .OT_ExtLink:active {
 	margin: 0 auto;
+}
+.OT_ExtLink:hover, #book .OT_ExtLink:hover, #book-table .OT_ExtLink:hover {
+	color: #990000 !important;
 }
