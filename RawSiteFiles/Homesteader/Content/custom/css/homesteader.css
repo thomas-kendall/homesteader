@@ -90,7 +90,11 @@ header .item .item_muffins {
 }
 .OT_ExtLink:link, .OT_ExtLink:visited, .OT_ExtLink:hover, .OT_ExtLink:active,
 #book .OT_ExtLink:link, #book .OT_ExtLink:visited, #book .OT_ExtLink:hover, #book .OT_ExtLink:active,
-#book-table .OT_ExtLink:link, #book-table .OT_ExtLink:visited, #book-table .OT_ExtLink:hover, #book-table .OT_ExtLink:active {
+#book-table .OT_ExtLink:link, #book-table .OT_ExtLink:visited, #book-table .OT_ExtLink:hover, #book-table .OT_ExtLink:active,
+.OTButton:link, .OTButton:visited, .OTButton:hover, .OTButton:active,
+#book .OTButton:link, #book .OTButton:visited, #book .OTButton:hover, #book .OTButton:active,
+#book-table .OTButton:link, #book-table .OTButton:visited, #book-table .OTButton:hover, #book-table .OTButton:active,
+#book-table .OTButton, #book .OTButton, .OTButton {
 	margin: 0 auto;
 }
 .OT_ExtLink:hover, #book .OT_ExtLink:hover, #book-table .OT_ExtLink:hover {
