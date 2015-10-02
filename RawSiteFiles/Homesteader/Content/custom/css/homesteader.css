@@ -3,5 +3,63 @@
 }
 
 header .item .item_muffins {
-    background-image: url("../images/muffins-header.jpg");
+    background-image: url("../images/muffins-header-o60.jpg");
+}
+
+#our-story .section-subheading {
+	margin: 48px 0;
+}
+#our-story p {
+	line-height: 1.25em;
+}
+
+#our-story {
+  z-index: 1;
+  color: #fff;
+  padding: 150px 0;
+  background: url('../../custom/images/megan-jeremy-pirate-kiss-o60.jpg') no-repeat center center scroll;
+  /* background attachment fixed used for CSS parallax scrolling effect */
+
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+#our-story .section-heading,
+#our-story .section-subheading {
+  color: #fff;
+}
+#our-story .fa {
+  color: #fff;
+}
+#our-story ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#our-story ul li {
+  margin-bottom: 15px;
+}
+#our-story ul li a {
+  font-family: 'novecento_sans_wide_bookbold', sans-serif;
+  color: white;
+  font-size: 28px;
+  font-weight: normal !important;
+}
+@media (max-width: 768px) {
+  #our-story {
+    background-attachment: scroll;
+  }
+}
+
+#OT_form,
+#book #OT_form,
+#book-table #OT_form {
+	margin: 0 auto;
+}
+.OT_ExtLink:link, .OT_ExtLink:visited, .OT_ExtLink:hover, .OT_ExtLink:active,
+#book .OT_ExtLink:link, #book .OT_ExtLink:visited, #book .OT_ExtLink:hover, #book .OT_ExtLink:active,
+#book-table .OT_ExtLink:link, #book-table .OT_ExtLink:visited, #book-table .OT_ExtLink:hover, #book-table .OT_ExtLink:active {
+	margin: 0 auto;
 }
