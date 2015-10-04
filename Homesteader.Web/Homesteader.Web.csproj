@@ -119,6 +119,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\custom\css\homesteader.css" />
     <Content Include="Content\custom\images\banana-chocolate-cake.jpg" />
     <Content Include="Content\custom\images\breakfast-souffle.jpg" />
     <Content Include="Content\custom\images\buffet.jpg" />
@@ -139,6 +140,8 @@
     <Content Include="Content\custom\images\chocalate-coconut-tart.jpg" />
     <Content Include="Content\custom\images\chocalate-croissant.jpg" />
     <Content Include="Content\custom\images\chocolate-cake.jpg" />
+    <Content Include="Content\custom\images\chocolate-chip-cookies-o60.jpg" />
+    <Content Include="Content\custom\images\chocolate-chip-cookies-tall.jpg" />
     <Content Include="Content\custom\images\chocolate-chip-cookies.jpg" />
     <Content Include="Content\custom\images\chocolate-cups.jpg" />
     <Content Include="Content\custom\images\cinnamon-rolls.jpg" />
@@ -151,7 +154,12 @@
     <Content Include="Content\custom\images\macaroons.jpg" />
     <Content Include="Content\custom\images\making-lasagna.jpg" />
     <Content Include="Content\custom\images\megan-jeremy-cooking.jpg" />
+    <Content Include="Content\custom\images\megan-jeremy-pirate-kiss-o40.jpg" />
+    <Content Include="Content\custom\images\megan-jeremy-pirate-kiss-o60.jpg" />
     <Content Include="Content\custom\images\megan-jeremy-pirate-kiss.jpg" />
+    <Content Include="Content\custom\images\menu-lunch.jpg" />
+    <Content Include="Content\custom\images\muffins-header-o60.jpg" />
+    <Content Include="Content\custom\images\muffins-header.jpg" />
     <Content Include="Content\custom\images\muffins.jpg" />
     <Content Include="Content\custom\images\shrimp-couscous.jpg" />
     <Content Include="Content\custom\images\shrimp-tomatoes.jpg" />
@@ -163,7 +171,6 @@
     <Content Include="Content\foodster\bootstrap\js\bootstrap.min.js" />
     <Content Include="Content\foodster\css\animate.css" />
     <Content Include="Content\foodster\css\animate.min.css" />
-    <Content Include="Content\foodster\css\custom.css" />
     <Content Include="Content\foodster\css\demo.css" />
     <Content Include="Content\foodster\css\foodster.css" />
     <Content Include="Content\foodster\fonts\fontawesome\css\font-awesome.css" />
@@ -287,16 +294,6 @@
     <Content Include="Content\foodster\images\Thumbs.db" />
     <Content Include="Content\foodster\js\custom.coffee" />
     <Content Include="Content\foodster\js\foodster.coffee" />
-    <Content Include="Content\foodster\less\custom.less" />
-    <Content Include="Content\foodster\less\demo.less" />
-    <Content Include="Content\foodster\less\foodster.less" />
-    <Content Include="Content\foodster\less\mixins.less" />
-    <Content Include="Content\foodster\less\variables.less" />
-    <Content Include="Content\foodster\sass\custom.scss" />
-    <Content Include="Content\foodster\sass\demo.scss" />
-    <Content Include="Content\foodster\sass\foodster.scss" />
-    <Content Include="Content\foodster\sass\mixins.scss" />
-    <Content Include="Content\foodster\sass\variables.scss" />
     <Content Include="Content\foodster\video\video.ogg" />
     <Content Include="Content\foodster\video\video.webm" />
     <None Include="Properties\PublishProfiles\thehomesteadercafe-dev.pubxml" />

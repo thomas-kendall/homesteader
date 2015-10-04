@@ -209,7 +209,7 @@ h6 {
   margin-bottom: 15px;
 }
 .section-subheading {
-  font-family: 'nexa_rust_script_l0regular', sans-serif;
+  font-family: 'Dancing Script', cursive;
   font-size: 32px;
   color: #2e2e32;
   text-transform: none;
@@ -1091,12 +1091,13 @@ header .btn:hover i.animated {
 // Menus section
 // -------------
 */
+
+/*
 #menus {
   z-index: 1;
   color: #fff;
   padding: 150px 0;
   background: url('../../custom/images/megan-jeremy-pirate-kiss.jpg') no-repeat center center scroll;
-  /* background attachment fixed used for CSS parallax scrolling effect */
 
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -1125,6 +1126,8 @@ header .btn:hover i.animated {
   font-size: 28px;
   font-weight: normal !important;
 }
+*/
+
 /*
 // --------------------
 // Book a table section
