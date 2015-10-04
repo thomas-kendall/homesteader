@@ -296,8 +296,6 @@
     <Content Include="Content\foodster\js\foodster.coffee" />
     <Content Include="Content\foodster\video\video.ogg" />
     <Content Include="Content\foodster\video\video.webm" />
-    <None Include="Properties\PublishProfiles\thehomesteadercafe-dev.pubxml" />
-    <None Include="Properties\PublishProfiles\www.thehomesteadercafe.com.pubxml" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -323,6 +321,7 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+    <None Include="Properties\PublishProfiles\thehomesteadercafe.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
