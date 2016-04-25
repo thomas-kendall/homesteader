@@ -342,6 +342,7 @@
     <Content Include="Content\custom\documents\menu-lunch.pdf" />
     <None Include="Project_Readme.html" />
     <None Include="Properties\PublishProfiles\thehomesteadercafe-dev.pubxml" />
+    <None Include="Properties\PublishProfiles\thehomesteadercafe.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
