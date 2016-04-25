@@ -130,6 +130,7 @@
     <Content Include="Content\custom\images\carousel\chocalate-croissant.jpg" />
     <Content Include="Content\custom\images\carousel\chocolate-chip-cookies.jpg" />
     <Content Include="Content\custom\images\carousel\chocolate-cups.jpg" />
+    <Content Include="Content\custom\images\carousel\drinks-combined.jpg" />
     <Content Include="Content\custom\images\carousel\egg-bacon-polenta.jpg" />
     <Content Include="Content\custom\images\carousel\eggplant-parmesan.jpg" />
     <Content Include="Content\custom\images\carousel\macaroons.jpg" />
@@ -146,6 +147,8 @@
     <Content Include="Content\custom\images\chocolate-cups.jpg" />
     <Content Include="Content\custom\images\cinnamon-rolls.jpg" />
     <Content Include="Content\custom\images\corn-cakes.jpg" />
+    <Content Include="Content\custom\images\drink-beats.jpg" />
+    <Content Include="Content\custom\images\drink-orange.jpg" />
     <Content Include="Content\custom\images\egg-bacon-polenta.jpg" />
     <Content Include="Content\custom\images\eggplant-parmesan.jpg" />
     <Content Include="Content\custom\images\homesteader-logo-color.png" />
@@ -161,6 +164,7 @@
     <Content Include="Content\custom\images\muffins-header-o60.jpg" />
     <Content Include="Content\custom\images\muffins-header.jpg" />
     <Content Include="Content\custom\images\muffins.jpg" />
+    <Content Include="Content\custom\images\carousel\pork-chop.jpg" />
     <Content Include="Content\custom\images\shrimp-couscous.jpg" />
     <Content Include="Content\custom\images\shrimp-tomatoes.jpg" />
     <Content Include="Content\custom\images\winter-white-chocolate-mousse.jpg" />
@@ -320,21 +324,24 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="Content\custom\documents\menu-brunch.pdf" />
-    <Content Include="Content\custom\documents\menu-dessert.pdf" />
-    <Content Include="Content\custom\documents\menu-dinner.pdf" />
+    <Content Include="Content\custom\documents\menu-brunch.before.2016.04.25.pdf" />
+    <Content Include="Content\custom\documents\menu-dessert.before.2016.04.25.pdf" />
+    <Content Include="Content\custom\documents\menu-dinner.before.2016.04.25.pdf" />
     <Content Include="Content\custom\documents\menu-starter.pdf" />
-    <Content Include="Content\custom\documents\menu-lunch.pdf" />
+    <Content Include="Content\custom\documents\menu-lunch.before.2016.04.25.pdf" />
     <Content Include="Content\custom\documents\menu-brunch.before.2015.11.02.pdf" />
     <Content Include="Content\custom\documents\menu-dinner.before.2015.11.02.pdf" />
     <Content Include="Content\custom\documents\menu-starter.before.2015.11.02.pdf" />
     <Content Include="Content\custom\documents\menu-brunch.before.2015.12.13.pdf" />
     <Content Include="Content\custom\documents\menu-dinner.before.2015.12.13.pdf" />
     <Content Include="Content\custom\documents\menu-lunch.before.2015.12.13.pdf" />
+    <Content Include="Content\custom\documents\menu-dessert.before.2016.01.12.pdf" />
+    <Content Include="Content\custom\documents\menu-brunch.pdf" />
+    <Content Include="Content\custom\documents\menu-dessert.pdf" />
+    <Content Include="Content\custom\documents\menu-dinner.pdf" />
+    <Content Include="Content\custom\documents\menu-lunch.pdf" />
     <None Include="Project_Readme.html" />
-    <None Include="Properties\PublishProfiles\thehomesteadercafe %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\thehomesteadercafe-dev.pubxml" />
-    <None Include="Properties\PublishProfiles\thehomesteadercafe.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
