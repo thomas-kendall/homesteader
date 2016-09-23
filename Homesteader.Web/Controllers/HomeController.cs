@@ -12,5 +12,11 @@ namespace Homesteader.Web.Controllers
         {
             return View();
         }
+
+        [Route("subscribe")]
+        public ActionResult Subscribe()
+        {
+            return View();
+        }
     }
 }
